@@ -18,6 +18,23 @@
 
 ---
 
+## 📋 Pré-requisitos
+
+Antes de instalar, execute no Termux:
+
+```bash
+# Atualizar os pacotes
+pkg update && pkg upgrade -y
+
+# Dar acesso ao armazenamento do Android
+termux-setup-storage
+
+# Instalar ferramentas essenciais
+pkg install -y git curl wget nano vim unzip zip tar python nodejs openssh
+```
+
+---
+
 ## 📦 Instalação
 
 ```bash
@@ -45,6 +62,7 @@ Durante a instalação você escolhe:
 - **Frases hackers** — exibe frases aleatórias do arquivo `~/.frases_hacker`
 - **PS2 moderno** — prompt de duas linhas com `┌──(user㉿host)-[path]` e `└─#`
 - **Backup automático** — `~/.zshrc` original salvo como `~/.zshrc.bak`
+- **MOTD removido** — a mensagem "Welcome to Termux!" não aparece mais, só seu banner
 
 ---
 
