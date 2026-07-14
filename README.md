@@ -49,20 +49,20 @@ Durante a instalação você escolhe:
 
 | Opção | Descrição |
 |-------|-----------|
-| **Nome do prompt** | Texto exibido no banner ASCII |
-| **Cor do nome** | Cor do banner, bordas e destaque |
+| **Nome do banner** | Texto exibido no banner FIGlet |
+| **Cor do banner** | Cor do banner, bordas e destaque |
 | **Cor dos textos** | Cor do caminho, seta e informações |
 
 ---
 
 ## ⚡ Funcionalidades
 
-- **Banner FIGlet** — nome em ASCII art na abertura do terminal
+- **Banner FIGlet** — nome do prompt em ASCII art na abertura do terminal
 - **Informações do sistema** — hostname, usuário, kernel, data, histórico
 - **Frases hackers** — exibe frases aleatórias do arquivo `~/.frases_hacker`
-- **PS2 moderno** — prompt de duas linhas com `┌──(user㉿host)-[path]` e `└─#`
+- **PS1 moderno** — prompt de duas linhas com `┌──(user㉿host)-[path]` e `└─#`
 - **Backup automático** — `~/.zshrc` original salvo como `~/.zshrc.bak`
-- **MOTD removido** — a mensagem "Welcome to Termux!" não aparece mais, só seu banner
+- **MOTD removido** — a mensagem "Welcome to Termux!" não aparece mais
 
 ---
 
