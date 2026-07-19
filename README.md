@@ -38,7 +38,7 @@ pkg install -y git curl wget nano vim unzip zip tar python nodejs openssh
 ## 📦 Instalação
 
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/carlos46743/termux-prompt-installer/main/install.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/ClubeDoTermux/termux-prompt-installer/main/install.sh)"
 ```
 
 ---
